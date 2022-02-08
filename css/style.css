@@ -9782,12 +9782,23 @@ textarea {
   z-index: 1;
 }
 
-.free-trial-content .sub-title {
-  display: block;
-  margin-bottom: 12px;
-  letter-spacing: 0.1em;
-  color: #ffffff;
-  font-weight: 600;
+@media screen and (max-width: 480px) {
+  .free-trial-content {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 21px;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .free-trial-content {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    /* padding: 80px; */
+  }
 }
 
 .free-trial-content h2 {
@@ -9800,12 +9811,24 @@ textarea {
   margin-right: auto;
 }
 
+@media screen and (max-width: 775px) {
+  .free-trial-content h2 {
+    font-size: 40px;
+  }
+}
+
 .free-trial-content form {
   max-width: 700px;
   position: relative;
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media screen and (max-width: 480px) {
+  .free-trial-content form {
+    font-size: 12px;
+  }
 }
 
 .free-trial-content form .input-newsletter {
