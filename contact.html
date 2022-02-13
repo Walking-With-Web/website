@@ -250,18 +250,18 @@
                 <!-- /col -->
                 <!-- col -->
                 <div class="col-xxl-6 offset-xxl-2 col-lg-6">
-                    <div class="contact-form">
+                    <form action="https://formspree.io/f/mbjwolll" method="POST" class="contact-form">
                         <div class="form">
                             <!-- row -->
                             <div class="row">
                                 <!-- col -->
                                 <div class="col-xl-6">
-                                    <input class="contact-input" type="text" placeholder="Full Your Name">
+                                    <input name="fullName" class="contact-input" type="text" placeholder="Full Your Name">
                                 </div>
                                 <!-- /col -->
                                 <!-- col -->
                                 <div class="col-xl-6">
-                                    <input class="contact-input" type="email" placeholder="Email Address">
+                                    <input name="email" class="contact-input" type="email" placeholder="Email Address">
                                 </div>
                                 <!-- /col -->
                             </div>
@@ -270,12 +270,12 @@
                             <div class="row">
                                 <!-- col -->
                                 <div class="col-xl-6">
-                                    <input class="contact-input" type="text" placeholder="Phone Number">
+                                    <input name="number" class="contact-input" type="text" placeholder="Phone Number">
                                 </div>
                                 <!-- /col -->
                                 <!-- col -->
                                 <div class="col-xl-6">
-                                    <input class="contact-input" type="text" placeholder="Subject">
+                                    <input name="subject" class="contact-input" type="text" placeholder="Subject">
                                 </div>
                                 <!-- /col -->
                             </div>
@@ -284,8 +284,8 @@
                             <div class="row">
                                 <!-- col -->
                                 <div class="col-12">
-                                    <textarea class="contact-input contact-input-messege" name="message"
-                                        placeholder="Write Message"></textarea>
+                                    <input type="text" name="message" class="contact-input contact-input-messege" name="message"
+                                        placeholder="Write Message"></input>
                                 </div>
                                 <!-- /col -->
                             </div>
@@ -295,15 +295,16 @@
                                 <!-- col -->
                                 <div class="col-12">
                                     <div class="subs-btn">
-                                        <a class="theme-btn clr-1 theme-btn-bg" href="contact.html#">send message <i
-                                                class="lni lni-telegram-original"></i></a>
+                                        <button class="theme-btn clr-1 theme-btn-bg" type="submit">Send Message </button>
+                                                
                                     </div>
+                                
                                 </div>
                                 <!-- /col -->
                             </div>
                             <!-- /row -->
                         </div>
-                    </div>
+                    </form>
                 </div>
                 <!-- /col -->
             </div>
@@ -312,11 +313,6 @@
         <!-- /Container -->
     </div>
     <!-- Contact Area -->
-
-    <div class="google-map contact-map">
-        <iframe class="w-100"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.91477055202!2d-74.11976321327155!3d40.69740344214894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!2sNew%20York,%20NY,%20USA!5e0!3m2!1sen!2sbd!4v1612427122501!5m2!1sen!2sbd"></iframe>
-    </div>
 
     <!-- Footer -->
     <footer class="footer">
