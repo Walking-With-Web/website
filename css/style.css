@@ -938,6 +938,8 @@ textarea {
 
 .acavo-nav .navbar {
   position: inherit;
+  margin-top: -20px;
+  margin-bottom: -20px;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
@@ -3022,6 +3024,8 @@ textarea {
 
 .footer .logo-light {
   display: block;
+  margin-bottom: -50px;
+  margin-left: -10px;
 }
 
 .footer .logo-dark {
